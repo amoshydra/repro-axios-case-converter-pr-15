@@ -1,0 +1,16 @@
+{
+  "name": "repro-axios-case-converter-pr-15",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack --config webpack.config.js"
+  },
+  "dependencies": {
+    "axios-case-converter": "0.3.0",
+    "axios-case-converter-reduced": "https://github.com/amoshydra/axios-case-converter/archive/bc56c6b592444c8d2655846891af06ff0c4ee6be.tar.gz",
+    "webpack": "4.41.5",
+    "webpack-bundle-analyzer": "3.6.0",
+    "webpack-cli": "3.3.10"
+  }
+}
